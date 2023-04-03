@@ -8,30 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class = "nav">
-        
+    <div class="nav">
         <nav>
-            <ul>
-                <img src="myimages/DoctorWhoicon.png" alt="Icon" style="height:25px; width: 25px">
-                <a class="active" href="#home">Home</a>
-                <a href="#services">services</a>
-                <a href="#about">About us</a>
-              </ul>
-
+            <ul >
+                <img src="myimages/DoctorWhoicon.png" alt="DoctorWho?" style ="height:55px; width:55px" ></img>
+                <a href=""></i>Home</a>
+                <a href=""></i>About us</a>
+                <a href=""><i class="fa fa-phone"></i>Contact us</a>
+            </ul>
         </nav>
-        
-    </div>
+        </div>
 
     
     <div class="secDiv">
+        <p style="color: rgb(108, 108, 246);"><b>Welcome to DoctorWho?</b><br>
+        <input id="Search" type="text" placeholder="Search">
+        <button>Search</button>
+       
         
-        <input type="text" placeholder="Search">
-       <p style="color: rgb(108, 108, 246);"><b>Welcome to DoctorWho?</b><br>
 
        </p> 
        </div>
        <div class="services">
         <p>OUR SERVICES</p>
+        
+        
+            
     </div>
         <div class="row">
             <div class="flip-card">
@@ -40,7 +42,6 @@
                     <img src="myimages/ambulance.png" alt="Avatar" style="width:300px;height:300px;">
                   </div>
                   <div class="flip-card-back">
-                
                     <p>Fast and affordable transport at your fingertips</p>
                   </div>
                 </div>
@@ -69,6 +70,24 @@
                 </div>
               </div>
             </div>
+            <form action="/action_page.php">
+                <div class="container">
+                  <h1>Book Appointment</h1>
+                  <p>Please fill in this form to Book an Appointment.</p>
+                  <hr>
+              
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="Enter Email" name="email" id="email" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+              
+                  <label for="psw-repeat"><b>Repeat Password</b></label>
+                  <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                  
+              
+                  <button type="submit" class="bookbtn">Book</button>
+                </div>
            
     <script src="index.js"></script>
 </body>

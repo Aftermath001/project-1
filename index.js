@@ -8,7 +8,6 @@
          let gender = data[i].gender;
          let phone=data[i].phone;
          let price = data[i].price;
-         let description =data[i].description;
          let image= data[i].image;
          const cards =document.createElement("div");
          cards.classList.add('cards');

@@ -1,18 +1,29 @@
 .nav{
-    height: 50px;;
-    background-color:rgb(125, 125, 241);
-    padding-left: 80%;
-  
-  }
-.nav img {
+    background-color:rgb(4, 0, 0);
+    height: 60px;
+    width:100%;
+    font-style: normal;
+
+
+}
+a{
+    color:white;
+    padding-inline: 10px;
+    margin: 15px;
+   }
+nav img{
+    margin-right: auto;
+    margin-left: auto;
     float: left;
+    width:100px ;
+    height: 80px;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #7d7dfb;
   }
   
   li {
@@ -29,16 +40,8 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    background-color: #090909;
   }
-.nav input[type=text] {
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-}
   
 .secDiv{
     background-image:url(myimages/Home.png) ;
@@ -47,6 +50,10 @@ ul {
     text-align: center;
     font-size: xx-large;
     padding-top: 10%;
+    opacity: 0.9;
+}
+button{
+    color: rgb(89, 147, 248);
 }
 p{
     font-weight: 1000;
@@ -109,7 +116,7 @@ p{
 }
 .services{
     background-color:rgb(102, 102, 236);;
-    height: 2000px;
+    height: 1500px;
 } 
 .cards{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -117,10 +124,62 @@ p{
     width: 20%;
     border-radius: 5px;
     margin: 3rem;
-    background-color:rgb(127, 127, 127);
+    background-color:rgb(28, 27, 27);
     display: inline-table;
     
 }
 .cards:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+    background-color: white;
+   
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 20%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .bookbtn {
+    background-color: #5f5af0;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .bookbtn:hover {
+    opacity: 1;
+  }
+  
+ 
+  
+  
+  
