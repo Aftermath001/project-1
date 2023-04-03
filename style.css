@@ -1,19 +1,37 @@
-.firstDiv{
+.nav{
     height: 50px;;
     background-color:rgb(125, 125, 241);
+    padding-left: 80%;
   
   }
-button{
-    background-color: transparent;
+.nav img {
     float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
 }
-.firstDiv input[type=text] {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+.nav input[type=text] {
     float: right;
     padding: 6px;
     border: none;
@@ -21,10 +39,14 @@ button{
     margin-right: 16px;
     font-size: 17px;
 }
+  
 .secDiv{
     background-image:url(myimages/Home.png) ;
     height: 500px;
     width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 10%;
 }
 p{
     font-weight: 1000;
@@ -38,33 +60,67 @@ p{
   }
   
   /* Float four columns side by side */
-  .column {
+  .flip-card {
     float: left;
     width: 25%;
+    height: 80%;
     padding: 10px;
+    background-color: aliceblue;
+    margin: 3rem;
   }
-  
-  /* Remove extra left and right margins, due to padding in columns */
-  .row {margin: 0 -5px;}
-  
-  /* Clear floats after the columns */
-  .row {
-    content: "";
-    display: table;
-    clear: both;
-    padding-left: 200px;
-    padding-top: 10px;
-    background-color: rgb(127, 127, 248);
-  }
-  
-  /* Style the counter cards */
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-    padding: 70px;
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
     text-align: center;
-    background-color: #f1f1f1;
-    height: 300px;
-    width: 250px;
-    padding-top: 10px;
-    margin: 7rem;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color:rgb(115, 115, 239);
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .row{
+    background-color:rgb(245, 245, 248);
+    height: 400px;
+  }
+.cards{
+    background-color: rgb(102, 102, 236);
+}
+.services{
+    background-color:rgb(102, 102, 236);;
+    height: 2000px;
+} 
+.cards{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 5px;
+    margin: 3rem;
+    background-color:rgb(127, 127, 127);
+    display: inline-table;
+    
+}
+.cards:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
