@@ -1,0 +1,70 @@
+.firstDiv{
+    height: 50px;;
+    background-color:rgb(125, 125, 241);
+  
+  }
+button{
+    background-color: transparent;
+    float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.firstDiv input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+.secDiv{
+    background-image:url(myimages/Home.png) ;
+    height: 500px;
+    width: 100%;
+}
+p{
+    font-weight: 1000;
+}
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row {
+    content: "";
+    display: table;
+    clear: both;
+    padding-left: 200px;
+    padding-top: 10px;
+    background-color: rgb(127, 127, 248);
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 70px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 300px;
+    width: 250px;
+    padding-top: 10px;
+    margin: 7rem;
+  }
