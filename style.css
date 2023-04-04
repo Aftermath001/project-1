@@ -6,7 +6,8 @@
 
 
 }
-a{
+.nav a{
+  float: right;
     color:white;
     padding-inline: 10px;
     margin: 15px;
@@ -118,11 +119,12 @@ p{
    align-content: center;
     background-color:rgb(102, 102, 236);;
     height: 1700px;
+    padding-left: 10%;
 } 
 .services p1{
   font-size: larger;
   font-weight: bolder;
-  padding-left: 45%;
+  padding-left: 40%;
   color: #f0e8e8;
 }
 .cards{
@@ -131,7 +133,7 @@ p{
     width: 20%;
     border-radius: 5px;
     margin: 3rem;
-    background-color:rgb(28, 27, 27);
+    background-color:rgb(100, 98, 98);
     display: inline-table;
     
 }
@@ -180,17 +182,18 @@ p{
   .bookbtn:hover {
     opacity: 1;
   }
-  .icons{
-    display: inline-flex;
-    align-items: stretch;
-    margin: 3rem;
-    grid-template-columns: 2fr 1fr 1fr 2fr;
+  .column {
+    float: left;
+    width: 33.33%;
   }
   
-.col{
-  float: left;
-  width: 50%;
-}
+  /* Clear floats after the columns */
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+    color: #ddd;
+  }
   
 .footer{
   align-content: center;
