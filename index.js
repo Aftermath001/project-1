@@ -12,11 +12,13 @@
          const cards =document.createElement("div");
          cards.classList.add('cards');
          cards.innerHTML+=`
-         <ol><p style = "color:white">${name}</p>
+         <ol>
+         <img src='${image}'style= "height:200px;width:200px" >
+         <p style = "color:white">${name}</p>
          <p style = "color:white">${gender}</p>
          <p style = "color:white">${phone}</p>
          <p style = "color:white">${price}</p>
-         <img src='${image}'style= "height:200px;width:200px" ><ol>
+         <ol>
          `
          Kona.appendChild(cards);
          }

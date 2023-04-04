@@ -115,9 +115,16 @@ p{
     background-color: rgb(102, 102, 236);
 }
 .services{
+   align-content: center;
     background-color:rgb(102, 102, 236);;
     height: 1700px;
 } 
+.services p1{
+  font-size: larger;
+  font-weight: bolder;
+  padding-left: 45%;
+  color: #f0e8e8;
+}
 .cards{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -185,3 +192,22 @@ p{
   width: 50%;
 }
   
+.footer{
+  align-content: center;
+  width: 100%;
+  padding-top: 10px;
+  background-color: #090915;
+  color: #f1f1f1;
+  display: flex;
+}
+.footer div{
+  text-align: center;
+  padding-left: 50px;
+}
+.col-2{
+  flex-grow: 0.5;
+}
+.footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+}
