@@ -116,7 +116,7 @@ p{
 }
 .services{
     background-color:rgb(102, 102, 236);;
-    height: 1500px;
+    height: 1700px;
 } 
 .cards{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -137,49 +137,51 @@ p{
   
   /* Add padding to containers */
   .container {
-    padding: 16px;
-    background-color: white;
-   
+    /* padding: 16px; */
+    background-color: rgb(134, 134, 174);
+    width: 50%;
+    height:170px;
   }
   
   /* Full-width input fields */
-  input[type=text], input[type=password] {
-    width: 20%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
+  input[type=text]:focus,input[type=email]:focus{
+    width: 70%;
+    padding: 7px;
+    /* margin: 5px 0 20px 0; */
     display: inline-block;
     border: none;
     background: #f1f1f1;
   }
   
-  input[type=text]:focus, input[type=password]:focus {
+  input[type=text]:focus,input[type=email]:focus{
     background-color: #ddd;
     outline: none;
-  }
-  
-  /* Overwrite default styles of hr */
-  hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
   }
   
   /* Set a style for the submit button */
   .bookbtn {
     background-color: #5f5af0;
     color: white;
-    padding: 16px 20px;
+    padding: 5px ;
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 20%;
     opacity: 0.9;
   }
   
   .bookbtn:hover {
     opacity: 1;
   }
+  .icons{
+    display: inline-flex;
+    align-items: stretch;
+    margin: 3rem;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+  }
   
- 
-  
-  
+.col{
+  float: left;
+  width: 50%;
+}
   
