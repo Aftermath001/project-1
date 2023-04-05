@@ -58,6 +58,13 @@ button{
     border-radius: 2rem;
     background-color: #e4e4ed;
 }
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
 
 p{
     font-weight: 1000;

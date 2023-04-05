@@ -19,10 +19,10 @@
          <p style = "color:white">${gender}</p>
          <p style = "color:white">${speciality}</p>
          <p style = "color:white">${price}</p>
-         <span class="fa fa-star"></span>
-         <span class="fa fa-star"></span>
-         <span class="fa fa-star"></span>
-         <span class="fa fa-star"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
          <span class="fa fa-star"></span>
          <ol>
          `
