@@ -25,6 +25,13 @@
         <p style="color: rgb(114, 114, 245);"><b>Welcome to DoctorWho?</b><br>
         <input  type="search"id="search-input" placeholder="Search Doctor Here">
         <button id ="search">Search</button>
+        <div id ="buttons">
+          <button class="button-value" onclick="filterDoctors('All')">All Doctors</button>
+          <button class="button-value" onclick="filterDoctors('Gynacologist')">Gynacologist</button>
+          <button class="button-value" onclick="filterDoctors('Paediatrician')">Paediatrician</button>
+          <button class="button-value" onclick="filterDoctors('Surgeon')">Surgeon</button>
+     
+        </div>
         </p> 
     </div>
     </div>
@@ -55,13 +62,7 @@
             Division provides Radiological, Laboratory,<br> Farewell and Health Information services to 
            <br> clinical excellence.</p>
           </div>
-          <div id ="buttons">
-            <button class="button-value" onclick="filterDoctors('All')">All Doctors</button>
-            <button class="button-value" onclick="filterDoctors('Gynacologist')">Gynacologist</button>
-            <button class="button-value" onclick="filterDoctors('Paediatrician')">Paediatrician</button>
-            <button class="button-value" onclick="filterDoctors('Surgeon')">Surgeon</button>
-       
-          </div>
+          
           
             
            
@@ -140,12 +141,13 @@
 
                 </div>
                 <div class="col-2">
-                  <h3>Book Appointment</h3><form id="myForm" action="submit">
+                  <h3>Book Appointment</h3>
+                  <form id="myForm" submit="alertFunction()">
                     <label for="name">Name:</label> 
                     <input type="text" id="Name" name="name" placeholder ="Enter Name">
                     <label for="email">Enter your email:</label> 
                     <input type="email" id="email" name="email" placeholder ="email">
-                    <button type="submit"> Book</button>
+                    <button click="myFunction" type="submit">Submit</button><br>
                     <p>Developed by African AfterMath &copy;2023</p>
                   </form>
                   

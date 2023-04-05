@@ -54,7 +54,7 @@ ul {
     opacity: 0.9;
 }
 .button-value{
-    color: rgb(238, 238, 245);
+    color: rgb(103, 103, 239);
     border-radius: 3rem;
     background-color:transparent;
     padding: 1rem, 2rem;
@@ -213,7 +213,7 @@ p{
   
 .footer{
   align-content: center;
-  height: 300px;
+  height: 200px;
   width: 100%;
   padding-top: 10px;
   background-color: #090915;

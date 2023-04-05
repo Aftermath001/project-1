@@ -29,12 +29,41 @@ document.addEventListener('DOMContentLoaded', function(){
          Kona.appendChild(cards);
          }
   })
-  let form =document.getElementById("myForm");
-  form.addEventListener("submit", myFunction);
-  function myFunction() {
+ let form =document.getElementById("myForm");
+  form.addEventListener("submit", alertFunction);
+  function alertFunction() {
     alert("The form was submitted");
-    form.reset();
+    // form.reset();
   }
+    //filter// )
+  function filterDoctors(value){
+    let buttons = document.querySelectorAll(".button-value");
+     
+    buttons.forEach((button) => {
+        //check if value is equal to innertext
+       if(value.toUpperCase() == button.innerText.toUpperCase()){
+
+           button.classList.add("active");
+       }
+       else{
+           button.classList.remove("active");
+       }
+    })
+    let elements = document.querySelectorAll(".cards");
+
+    elements.forEach((elements) => {
+        
+       if (value == "All"){
+           elements.classList.remove("hide")
+       }
+    })
+}
+
+//Initially dispaly all Doctors
+     window.onload = () => {
+      filterDoctors ("All")
+}
+  
 //   let form = document.getElementById("Insert")
 //   form.addEventListener('book',function(event){
 //        event.preventDefault()// prevents the form from auto submitting.
@@ -66,49 +95,27 @@ document.addEventListener('DOMContentLoaded', function(){
 
 // }
 
-function filterDoctors(value){
-
-     let buttons = document.querySelectorAll(".button-value");
-      
-     buttons.forEach((button) => {
-
-        if(value.toUpperCase() == button.innerText.toUpperCase()){
-
-            button.classList.add("active");
-        }
-        else{
-            button.classList.remove("active");
-        }
-     })
-     let elements = document.querySelectorAll(".cards");
-
-     elements.forEach((elements) => {
-         
-        if (value == "All"){
-            elements.classList.remove("hide")
-        }
-     })
-}
-document.getElementById("search").addEventListener("click",() => {
+f
+// // document.getElementById("search").addEventListener("click",() => {
    
-    let searchInput = document.getElementById("search-input").value;
-    let elements = document.querySelectorAll ("Doctor-name");
-    let card2 = document.querySelectorAll(".cards");
-    console.log(Search-input);
+// //     let searchInput = document.getElementById("search-input").value;
+// //     let elements = document.querySelectorAll ("Doctor-name");
+// //     let card2 = document.querySelectorAll(".cards");
+// //     console.log(Search-input);
 
      
 
 
 
 
-}
+// // }
 
 
 
 
-)
-window.onload = () => {
-    filterDoctors ("All")
-}
+// // )
+// // window.onload = () => {
+// //     filterDoctors ("All")
+// }
 });
   
