@@ -1,4 +1,4 @@
-
+document.addEventListener('DOMContentLoaded', function(){
 
     fetch("http://localhost:3000/Doctors")
     .then (response => response.json())
@@ -31,6 +31,27 @@
   })
 
 
+// for (i of doctors.data){
+//     //Create card
+//  let cards = document.createElement ("div");
+//  //Give card speciality
+//  cards.classList.add("cards","i.speciality");
+//  //image div
+//  let imgContainer = document.createElement("div");
+//  imgContainer.classList.add("image-container");
+//  //img tag
+//  let image = document.createElement("img");
+//  image.setAttribute("src",i.image);
+//  cards.appendChild(imgContainer);
+
+ 
+//  document.getElementById("Ourservices").appendChild(cards);
+
+
+
+
+// }
+
 function filterDoctors(value){
 
      let buttons = document.querySelectorAll(".button-value");
@@ -54,10 +75,12 @@ function filterDoctors(value){
         }
      })
 }
-document.getElementById("Search").addEventListener("click",() => {
+document.getElementById("search").addEventListener("click",() => {
    
-    let searchInput = document.getElementById("Search-input").value;
-    let elements = document.querySelectorAll ("Doctor-name")
+    let searchInput = document.getElementById("search-input").value;
+    let elements = document.querySelectorAll ("Doctor-name");
+    let card2 = document.querySelectorAll(".cards");
+    console.log(Search-input);
 
      
 
@@ -73,5 +96,5 @@ document.getElementById("Search").addEventListener("click",() => {
 window.onload = () => {
     filterDoctors ("All")
 }
-
+});
   

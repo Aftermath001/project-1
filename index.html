@@ -23,8 +23,8 @@
     <div id ="Home">
       <div class="secDiv">
         <p style="color: rgb(114, 114, 245);"><b>Welcome to DoctorWho?</b><br>
-        <input id="Search" type="text" placeholder="Search">
-        <button>Search</button>
+        <input  type="search"id="search-input" placeholder="Search Doctor Here">
+        <button id ="search">Search</button>
         </p> 
     </div>
     </div>
@@ -55,11 +55,14 @@
             Division provides Radiological, Laboratory,<br> Farewell and Health Information services to 
            <br> clinical excellence.</p>
           </div>
-          <button class="button-value" onclick="filterDoctors('All')">All Doctors</button>
-          <button class="button-value" onclick="filterDoctors('Gynacologist')">Gynacologist</button>
-          <button class="button-value" onclick="filterDoctors('Paediatrician')">Paediatrician</button>
-          <button class="button-value" onclick="filterDoctors('Surgeon')">Surgeon</button>
+          <div id ="buttons">
+            <button class="button-value" onclick="filterDoctors('All')">All Doctors</button>
+            <button class="button-value" onclick="filterDoctors('Gynacologist')">Gynacologist</button>
+            <button class="button-value" onclick="filterDoctors('Paediatrician')">Paediatrician</button>
+            <button class="button-value" onclick="filterDoctors('Surgeon')">Surgeon</button>
        
+          </div>
+          
             
            
           

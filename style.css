@@ -53,10 +53,16 @@ ul {
     padding-top: 10%;
     opacity: 0.9;
 }
-button{
-    color: rgb(1, 1, 12);
-    border-radius: 2rem;
-    background-color: #e4e4ed;
+.button-value{
+    color: rgb(238, 238, 245);
+    border-radius: 3rem;
+    background-color:transparent;
+    padding: 1rem, 2rem;
+    cursor: pointer;
+}
+.active{
+  background-color: #515058;
+  color: #fef9f9;
 }
 .fa {
   font-size: 25px;
