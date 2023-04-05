@@ -13,26 +13,25 @@
         <nav>
             <ul >
                 <img src="myimages/DoctorWhoicon.png" alt="DoctorWho?" style ="height:55px; width:55px" ></img>
-                <a href=""><i class="fa fa-book"></i>About Us</a>
-                <a href=""><i class="fa fa-cogs"></i>Our Services</a>
-                <a href=""><i class="fa fa-home"></i>Home</a>
+                <a href="#About Us"><i class="fa fa-book"></i>About Us</a>
+                <a href="#Services"><i class="fa fa-cogs"></i>Our Services</a>
+                <a href="#Home"><i class="fa fa-home"></i>Home</a>
             </ul>
         </nav>
         </div>
 
-    
-    <div class="secDiv">
+    <div id ="Home">
+      <div class="secDiv">
         <p style="color: rgb(114, 114, 245);"><b>Welcome to DoctorWho?</b><br>
         <input id="Search" type="text" placeholder="Search">
         <button>Search</button>
         </p> 
+    </div>
+    </div>
 
-       <button>All Doctors</button>
-        <button>Gynacologist</button>
-        <button>Paediatrician</button>
-        <button>Surgeon</button>
-       </div>
-       <div class="services">
+
+    <div id = "Services">
+      <div class="services">
         <p1>OUR SERVICES</p1>
         <div class="row2">
           <div class="column">
@@ -56,6 +55,10 @@
             Division provides Radiological, Laboratory,<br> Farewell and Health Information services to 
            <br> clinical excellence.</p>
           </div>
+          <button class="button-value" onclick="filterDoctors('All')">All Doctors</button>
+          <button class="button-value" onclick="filterDoctors('Gynacologist')">Gynacologist</button>
+          <button class="button-value" onclick="filterDoctors('Paediatrician')">Paediatrician</button>
+          <button class="button-value" onclick="filterDoctors('Surgeon')">Surgeon</button>
        
             
            
@@ -74,6 +77,9 @@
         </div>
                 
         </div>
+    </div>
+       <div id ="About Us">
+
         <div class="row">
           <h3>About Us</h3>
           <p3 style="color: black; font-weight: bolder;">Doctor WHO has had three names since its establishment in 1901. It was originally called the Native Civil Hospital & had a bed capacity of 40. It is recorded that in 1908, there were 45 beds & that 712 inpatients and 6,425 outpatients were seen.
@@ -118,6 +124,8 @@
                 </div>
               </div>
             </div>
+       </div>
+  
               <div class="footer">
                 <div class="col-1">
                   <h3>Get More Information</h3>

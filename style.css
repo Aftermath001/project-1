@@ -54,10 +54,11 @@ ul {
     opacity: 0.9;
 }
 button{
-    color: rgb(244, 244, 245);
+    color: rgb(1, 1, 12);
     border-radius: 2rem;
-    background-color: #7d7dfb;
+    background-color: #e4e4ed;
 }
+
 p{
     font-weight: 1000;
 }
