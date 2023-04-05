@@ -29,7 +29,21 @@ document.addEventListener('DOMContentLoaded', function(){
          Kona.appendChild(cards);
          }
   })
-
+  let form =document.getElementById("myForm");
+  form.addEventListener("submit", myFunction);
+  function myFunction() {
+    alert("The form was submitted");
+    form.reset();
+  }
+//   let form = document.getElementById("Insert")
+//   form.addEventListener('book',function(event){
+//        event.preventDefault()// prevents the form from auto submitting.
+//       let jina = document.getElementById("name").value
+//       console.log(jina);
+//       let eMail = document.getElementById("email").value
+//       console.log(eMail);
+//       form.reset();
+//   })
 
 // for (i of doctors.data){
 //     //Create card

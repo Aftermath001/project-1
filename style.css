@@ -213,6 +213,7 @@ p{
   
 .footer{
   align-content: center;
+  height: 300px;
   width: 100%;
   padding-top: 10px;
   background-color: #090915;
@@ -225,6 +226,7 @@ p{
 }
 .col-2{
   flex-grow: 0.5;
+ 
 }
 .footer div h3{
   font-weight: 300;
