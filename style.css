@@ -55,6 +55,7 @@ ul {
 }
 button{
     color: rgb(89, 147, 248);
+    border-radius: 2rem;
 }
 p{
     font-weight: 1000;
