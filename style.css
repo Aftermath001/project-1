@@ -54,8 +54,9 @@ ul {
     opacity: 0.9;
 }
 button{
-    color: rgb(89, 147, 248);
+    color: rgb(244, 244, 245);
     border-radius: 2rem;
+    background-color: #7d7dfb;
 }
 p{
     font-weight: 1000;

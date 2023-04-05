@@ -5,7 +5,7 @@
         "name": "Dr. Bowen Chan",
         "gender": "Male",
         "image": "https://plus.unsplash.com/premium_photo-1661766752153-9f0c3fad728f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGRvY3RvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "phone": "416-486-576",
+        "speciality": "Surgeon",
         "price":"$90"
       },
       {
@@ -13,7 +13,7 @@
         "name": "Dr. Michael Lewis BSc, MD, CCFP",
         "gender": "Male",
         "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGRvY3RvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "phone": "416-670-343",
+        "speciality": "Paediatrician",
         "price":"$75"
       },
       {
@@ -21,7 +21,7 @@
          "name": "Dr. Sharon Hind BScH, MD, CCFP",
         "gender": "Female",
         "image": "https://thumbs.dreamstime.com/b/smiling-female-doctor-holding-medical-records-lab-coat-her-office-clipboard-looking-camera-56673035.jpg",
-        "phone": "416-784-905",
+        "speciality": "Gynacologist",
         "price":"$80"  
       },
       {
@@ -29,7 +29,7 @@
          "name": "Dr. Sheeja Mathai",
         "gender": "Female",
         "image": "https://st.depositphotos.com/1518767/1390/i/450/depositphotos_13909652-stock-photo-young-doctor-sitting-on-a.jpg",
-        "phone": "416-385-234",
+        "speciality": "Surgeon",
         "price":"$60"
       },
       {
@@ -37,7 +37,7 @@
          "name": "Dr. Preston Tran",
         "gender": "Male",
         "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGRvY3RvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "phone": "416-339-590",
+        "speciality": "Paediatrician",
         "price":"$70"
       },
       {
@@ -45,7 +45,7 @@
        "name": "Dr. Mohammed Salah",
         "gender": "Male",
         "image": "https://media.istockphoto.com/id/1201439096/photo/male-medical-professional-is-confident-in-studio.jpg?s=612x612&w=0&k=20&c=T3a2ESMxG_cUVHvRxq4L0AKULnUPSpTR-qcBrce4h2I=",
-        "phone": "416-775-886",
+        "speciality": "Gynacologist",
         "price":"$50"
       },
       {
@@ -53,7 +53,7 @@
          "name": "Dr. Roberto Firmino",
         "gender": "Male",
         "image": "https://plus.unsplash.com/premium_photo-1661758890104-b1047cca7206?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAzfHxkb2N0b3J8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-        "phone": "416-705-540",
+        "speciality": "Paediatrician",
         "price":"$40"
       },
       {
@@ -61,7 +61,7 @@
          "name": "Dr.Wendy Key",
         "gender": "Female",
         "image": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?w=1380&t=st=1680463205~exp=1680463805~hmac=3f1c198f35a3da13494a9c7349c1ce81ec9404571c6370dd5530434e41472a7b",
-        "phone": "416-854-540",
+        "speciality": "Surgeon",
         "price":"$45"
       },
       {
@@ -69,7 +69,7 @@
          "name": "Dr. Christine Kendi",
         "gender": "Female",
         "image": "https://img.freepik.com/free-photo/portrait-smiling-young-woman-doctor-healthcare-medical-worker-pointing-fingers-left-showing-clini_1258-88108.jpg?size=626&ext=jpg&ga=GA1.2.635691057.1680463193&semt=sph",
-        "phone": "416-650-540",
+        "speciality": "Gynacologist",
         "price":"$35"
       }
     ]

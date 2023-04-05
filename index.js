@@ -6,7 +6,7 @@
      for(let i=0;i<data.length;i++){
          let name = data[i].name;
          let gender = data[i].gender;
-         let phone=data[i].phone;
+         let speciality=data[i].speciality;
          let price = data[i].price;
          let image= data[i].image;
          const cards =document.createElement("div");
@@ -16,7 +16,7 @@
          <img src='${image}'style= "height:200px;width:200px" >
          <p style = "color:white">${name}</p>
          <p style = "color:white">${gender}</p>
-         <p style = "color:white">${phone}</p>
+         <p style = "color:white">${speciality}</p>
          <p style = "color:white">${price}</p>
          <ol>
          `
