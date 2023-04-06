@@ -29,16 +29,20 @@ document.addEventListener('DOMContentLoaded', function(){
          Kona.appendChild(cards);
          }
   })
+  function changeText(id) {
+    id.innerHTML = "WE PUT YOU FIRST!";
+}
  let form =document.getElementById("myForm");
   form.addEventListener("submit", alertFunction);
   function alertFunction() {
     alert("The form was submitted");
-    // form.reset();
+    form.reset();
   }
+  let Doctors = 
     //filter// )
   function filterDoctors(value){
     let buttons = document.querySelectorAll(".button-value");
-     
+   //  buttons.addEventListener()
     buttons.forEach((button) => {
         //check if value is equal to innertext
        if(value.toUpperCase() == button.innerText.toUpperCase()){
@@ -49,19 +53,36 @@ document.addEventListener('DOMContentLoaded', function(){
            button.classList.remove("active");
        }
     })
+    //select all cards
     let elements = document.querySelectorAll(".cards");
-
+//loop through all cards
     elements.forEach((elements) => {
-        
+        //dispaly all cards on 'all' button click
        if (value == "All"){
            elements.classList.remove("hide")
        }
-    })
+    });
 }
+//search button
+document.getElementById("search").addEventListener("click",() =>{
+ //initialization
+ let submitInput = document.Elementbyid("search-input").value;
+ let elements = document.querySelectorAll("Doctors-name");
+ let card = document.querySelectorAll(".cards")
+ //loop through the elements
+ elements.forEach((element,index)=>{
+    if(element.innerText.includes (searchInput.toUpperCase())){
+        //dipsplay matching cards
+        card[index].classList.remove("hide");
+    }
+ })
 
-//Initially dispaly all Doctors
+}
+);
+//Initially display all Doctors
      window.onload = () => {
-      filterDoctors ("All")
+   // filterDoctors ('all'
+   // );
 }
   
 //   let form = document.getElementById("Insert")
@@ -95,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 // }
 
-f
+
 // // document.getElementById("search").addEventListener("click",() => {
    
 // //     let searchInput = document.getElementById("search-input").value;
