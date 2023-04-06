@@ -29,9 +29,7 @@ document.addEventListener('DOMContentLoaded', function(){
          Kona.appendChild(cards);
          }
   })
-  function changeText(id) {
-    id.innerHTML = "WE PUT YOU FIRST!";
-}
+ 
  let form =document.getElementById("myForm");
   form.addEventListener("submit", alertFunction);
   function alertFunction() {
@@ -139,4 +137,6 @@ document.getElementById("search").addEventListener("click",() =>{
 // //     filterDoctors ("All")
 // }
 });
-  
+function changeText(id) {
+    id.innerHTML = "WE PUT YOU FIRST!";
+}
