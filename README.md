@@ -12,7 +12,7 @@ The Doctor's Appointment Web App is built using modern web technologies, includi
 HTML
 CSS
 JavaScript
-Node.js
+
 #Contributing
 If you would like to contribute to this project, please open a pull request with your changes.
 

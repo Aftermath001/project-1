@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
 
-    fetch("http://localhost:3000/Doctors")
+    fetch(" http://localhost:3000/Doctors")
     .then (response => response.json())
     .then (data =>{
      const Kona = document.querySelector(".services");
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function(){
          <span class="fa fa-star checked"></span>
          <span class="fa fa-star checked"></span>
          <span class="fa fa-star checked"></span>
-         <span class="fa fa-star"></span>
+         <span class="fa fa-star checked"></span>
          <ol>
          `
          Kona.appendChild(cards);
@@ -138,5 +138,5 @@ document.getElementById("search").addEventListener("click",() =>{
 // }
 });
 function changeText(id) {
-    id.innerHTML = "WE PUT YOU FIRST!";
+    id.innerHTML = "0797246096!";
 }
