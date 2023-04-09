@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
 
-    fetch(" http://localhost:3000/Doctors")
+    fetch("http://localhost:3000/Doctors")
     .then (response => response.json())
     .then (data =>{
      const Kona = document.querySelector(".services");
